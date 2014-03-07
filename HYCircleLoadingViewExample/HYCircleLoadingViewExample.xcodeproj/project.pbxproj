@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF18C94018C959AD00C2C78D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18C93F18C959AD00C2C78D /* Foundation.framework */; };
+		BF18C94218C959AD00C2C78D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18C94118C959AD00C2C78D /* CoreGraphics.framework */; };
+		BF18C94418C959AD00C2C78D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18C94318C959AD00C2C78D /* UIKit.framework */; };
+		BF18C94A18C959AD00C2C78D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF18C94818C959AD00C2C78D /* InfoPlist.strings */; };
+		BF18C94C18C959AD00C2C78D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18C94B18C959AD00C2C78D /* main.m */; };
+		BF18C95018C959AD00C2C78D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18C94F18C959AD00C2C78D /* AppDelegate.m */; };
+		BF18C95218C959AD00C2C78D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF18C95118C959AD00C2C78D /* Images.xcassets */; };
+		BF18C95918C959AD00C2C78D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18C95818C959AD00C2C78D /* XCTest.framework */; };
+		BF18C95A18C959AD00C2C78D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18C93F18C959AD00C2C78D /* Foundation.framework */; };
+		BF18C95B18C959AD00C2C78D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18C94318C959AD00C2C78D /* UIKit.framework */; };
+		BF18C96318C959AD00C2C78D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF18C96118C959AD00C2C78D /* InfoPlist.strings */; };
+		BF18C96518C959AD00C2C78D /* HYCircleLoadingViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18C96418C959AD00C2C78D /* HYCircleLoadingViewExampleTests.m */; };
+		BF18C97018C959C100C2C78D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18C96F18C959C100C2C78D /* ViewController.m */; };
+		BF18C97318C959D400C2C78D /* HYCircleLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18C97218C959D400C2C78D /* HYCircleLoadingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF18C95C18C959AD00C2C78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF18C93418C959AD00C2C78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF18C93B18C959AD00C2C78D;
+			remoteInfo = HYCircleLoadingViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF18C93C18C959AD00C2C78D /* HYCircleLoadingViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYCircleLoadingViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF18C93F18C959AD00C2C78D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF18C94118C959AD00C2C78D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF18C94318C959AD00C2C78D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF18C94718C959AD00C2C78D /* HYCircleLoadingViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HYCircleLoadingViewExample-Info.plist"; sourceTree = "<group>"; };
+		BF18C94918C959AD00C2C78D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF18C94B18C959AD00C2C78D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF18C94D18C959AD00C2C78D /* HYCircleLoadingViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HYCircleLoadingViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		BF18C94E18C959AD00C2C78D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF18C94F18C959AD00C2C78D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF18C95118C959AD00C2C78D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF18C95718C959AD00C2C78D /* HYCircleLoadingViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYCircleLoadingViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF18C95818C959AD00C2C78D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BF18C96018C959AD00C2C78D /* HYCircleLoadingViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HYCircleLoadingViewExampleTests-Info.plist"; sourceTree = "<group>"; };
+		BF18C96218C959AD00C2C78D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF18C96418C959AD00C2C78D /* HYCircleLoadingViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCircleLoadingViewExampleTests.m; sourceTree = "<group>"; };
+		BF18C96E18C959C100C2C78D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF18C96F18C959C100C2C78D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF18C97118C959D400C2C78D /* HYCircleLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleLoadingView.h; sourceTree = "<group>"; };
+		BF18C97218C959D400C2C78D /* HYCircleLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleLoadingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF18C93918C959AD00C2C78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF18C94218C959AD00C2C78D /* CoreGraphics.framework in Frameworks */,
+				BF18C94418C959AD00C2C78D /* UIKit.framework in Frameworks */,
+				BF18C94018C959AD00C2C78D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF18C95418C959AD00C2C78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF18C95918C959AD00C2C78D /* XCTest.framework in Frameworks */,
+				BF18C95B18C959AD00C2C78D /* UIKit.framework in Frameworks */,
+				BF18C95A18C959AD00C2C78D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF18C93318C959AD00C2C78D = {
+			isa = PBXGroup;
+			children = (
+				BF18C94518C959AD00C2C78D /* HYCircleLoadingViewExample */,
+				BF18C95E18C959AD00C2C78D /* HYCircleLoadingViewExampleTests */,
+				BF18C93E18C959AD00C2C78D /* Frameworks */,
+				BF18C93D18C959AD00C2C78D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF18C93D18C959AD00C2C78D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF18C93C18C959AD00C2C78D /* HYCircleLoadingViewExample.app */,
+				BF18C95718C959AD00C2C78D /* HYCircleLoadingViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF18C93E18C959AD00C2C78D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF18C93F18C959AD00C2C78D /* Foundation.framework */,
+				BF18C94118C959AD00C2C78D /* CoreGraphics.framework */,
+				BF18C94318C959AD00C2C78D /* UIKit.framework */,
+				BF18C95818C959AD00C2C78D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF18C94518C959AD00C2C78D /* HYCircleLoadingViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				BF18C94E18C959AD00C2C78D /* AppDelegate.h */,
+				BF18C94F18C959AD00C2C78D /* AppDelegate.m */,
+				BF18C96E18C959C100C2C78D /* ViewController.h */,
+				BF18C96F18C959C100C2C78D /* ViewController.m */,
+				BF18C97118C959D400C2C78D /* HYCircleLoadingView.h */,
+				BF18C97218C959D400C2C78D /* HYCircleLoadingView.m */,
+				BF18C95118C959AD00C2C78D /* Images.xcassets */,
+				BF18C94618C959AD00C2C78D /* Supporting Files */,
+			);
+			path = HYCircleLoadingViewExample;
+			sourceTree = "<group>";
+		};
+		BF18C94618C959AD00C2C78D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF18C94718C959AD00C2C78D /* HYCircleLoadingViewExample-Info.plist */,
+				BF18C94818C959AD00C2C78D /* InfoPlist.strings */,
+				BF18C94B18C959AD00C2C78D /* main.m */,
+				BF18C94D18C959AD00C2C78D /* HYCircleLoadingViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF18C95E18C959AD00C2C78D /* HYCircleLoadingViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF18C96418C959AD00C2C78D /* HYCircleLoadingViewExampleTests.m */,
+				BF18C95F18C959AD00C2C78D /* Supporting Files */,
+			);
+			path = HYCircleLoadingViewExampleTests;
+			sourceTree = "<group>";
+		};
+		BF18C95F18C959AD00C2C78D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF18C96018C959AD00C2C78D /* HYCircleLoadingViewExampleTests-Info.plist */,
+				BF18C96118C959AD00C2C78D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF18C93B18C959AD00C2C78D /* HYCircleLoadingViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF18C96818C959AD00C2C78D /* Build configuration list for PBXNativeTarget "HYCircleLoadingViewExample" */;
+			buildPhases = (
+				BF18C93818C959AD00C2C78D /* Sources */,
+				BF18C93918C959AD00C2C78D /* Frameworks */,
+				BF18C93A18C959AD00C2C78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYCircleLoadingViewExample;
+			productName = HYCircleLoadingViewExample;
+			productReference = BF18C93C18C959AD00C2C78D /* HYCircleLoadingViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF18C95618C959AD00C2C78D /* HYCircleLoadingViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF18C96B18C959AD00C2C78D /* Build configuration list for PBXNativeTarget "HYCircleLoadingViewExampleTests" */;
+			buildPhases = (
+				BF18C95318C959AD00C2C78D /* Sources */,
+				BF18C95418C959AD00C2C78D /* Frameworks */,
+				BF18C95518C959AD00C2C78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF18C95D18C959AD00C2C78D /* PBXTargetDependency */,
+			);
+			name = HYCircleLoadingViewExampleTests;
+			productName = HYCircleLoadingViewExampleTests;
+			productReference = BF18C95718C959AD00C2C78D /* HYCircleLoadingViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF18C93418C959AD00C2C78D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Shadow;
+				TargetAttributes = {
+					BF18C95618C959AD00C2C78D = {
+						TestTargetID = BF18C93B18C959AD00C2C78D;
+					};
+				};
+			};
+			buildConfigurationList = BF18C93718C959AD00C2C78D /* Build configuration list for PBXProject "HYCircleLoadingViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF18C93318C959AD00C2C78D;
+			productRefGroup = BF18C93D18C959AD00C2C78D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF18C93B18C959AD00C2C78D /* HYCircleLoadingViewExample */,
+				BF18C95618C959AD00C2C78D /* HYCircleLoadingViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF18C93A18C959AD00C2C78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF18C94A18C959AD00C2C78D /* InfoPlist.strings in Resources */,
+				BF18C95218C959AD00C2C78D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF18C95518C959AD00C2C78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF18C96318C959AD00C2C78D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF18C93818C959AD00C2C78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF18C97318C959D400C2C78D /* HYCircleLoadingView.m in Sources */,
+				BF18C97018C959C100C2C78D /* ViewController.m in Sources */,
+				BF18C95018C959AD00C2C78D /* AppDelegate.m in Sources */,
+				BF18C94C18C959AD00C2C78D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF18C95318C959AD00C2C78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF18C96518C959AD00C2C78D /* HYCircleLoadingViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF18C95D18C959AD00C2C78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF18C93B18C959AD00C2C78D /* HYCircleLoadingViewExample */;
+			targetProxy = BF18C95C18C959AD00C2C78D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF18C94818C959AD00C2C78D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF18C94918C959AD00C2C78D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF18C96118C959AD00C2C78D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF18C96218C959AD00C2C78D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF18C96618C959AD00C2C78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF18C96718C959AD00C2C78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF18C96918C959AD00C2C78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HYCircleLoadingViewExample/HYCircleLoadingViewExample-Prefix.pch";
+				INFOPLIST_FILE = "HYCircleLoadingViewExample/HYCircleLoadingViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF18C96A18C959AD00C2C78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HYCircleLoadingViewExample/HYCircleLoadingViewExample-Prefix.pch";
+				INFOPLIST_FILE = "HYCircleLoadingViewExample/HYCircleLoadingViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF18C96C18C959AD00C2C78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HYCircleLoadingViewExample.app/HYCircleLoadingViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HYCircleLoadingViewExample/HYCircleLoadingViewExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HYCircleLoadingViewExampleTests/HYCircleLoadingViewExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BF18C96D18C959AD00C2C78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HYCircleLoadingViewExample.app/HYCircleLoadingViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HYCircleLoadingViewExample/HYCircleLoadingViewExample-Prefix.pch";
+				INFOPLIST_FILE = "HYCircleLoadingViewExampleTests/HYCircleLoadingViewExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF18C93718C959AD00C2C78D /* Build configuration list for PBXProject "HYCircleLoadingViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF18C96618C959AD00C2C78D /* Debug */,
+				BF18C96718C959AD00C2C78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF18C96818C959AD00C2C78D /* Build configuration list for PBXNativeTarget "HYCircleLoadingViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF18C96918C959AD00C2C78D /* Debug */,
+				BF18C96A18C959AD00C2C78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF18C96B18C959AD00C2C78D /* Build configuration list for PBXNativeTarget "HYCircleLoadingViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF18C96C18C959AD00C2C78D /* Debug */,
+				BF18C96D18C959AD00C2C78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF18C93418C959AD00C2C78D /* Project object */;
+}
