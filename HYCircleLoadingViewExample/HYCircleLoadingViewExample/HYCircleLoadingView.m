@@ -127,7 +127,7 @@
     CGContextSetStrokeColorWithColor(context, lineColor.CGColor);
     CGContextAddArc(context,
                     CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds),
-                    CGRectGetWidth(self.bounds)/2-3,
+                    CGRectGetWidth(self.bounds)/2-lineWidth,
                     ANGLE(120), ANGLE(120)+ANGLE(330)*self.anglePer,
                     0);
     CGContextStrokePath(context);
